@@ -1,0 +1,98 @@
+body {
+  background: #cadefc;
+}
+
+h1 {
+  color: #142d4c;
+  font-family: "Delius", cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  line-height: 50px;
+  font-size: 25px;
+  font-weight: 490;
+  margin-left: 10px;
+  color: white;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a2a8d3;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+p {
+  color: #142d4c;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px auto;
+}
+
+.contact {
+  color: #142d4c;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fa-brands.fa-linkedin-in {
+  font-size: 40px;
+  color: #142d4c;
+  background-color: white;
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #142d4c;
+}
+
+.special-links {
+  display: grid;
+}
+
+.about-wrapper {
+  max-width: 900px;
+  min-width: 600px;
+  max-height: 600px;
+}
+
+.about-app {
+  padding: 20px;
+  margin: 30px auto;
+  border: 1px solid;
+  border-radius: 20px;
+  display: block;
+}
+
+.web-apps a {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #142d4c;
+  color: white;
+  line-height: 2;
+  height: 50px;
+}
+
+.web-apps {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 20px;
+}
