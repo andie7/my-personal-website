@@ -107,7 +107,7 @@ a {
   font-size: 23px;
   border: 1px solid;
   border-radius: 20px;
-  width: 300px;
+  width: 500px;
   display: flex;
   justify-content: space-around;
   color: #514644;
@@ -168,4 +168,13 @@ a {
 
 .back-btn:hover {
   font-weight: bold;
+}
+
+.app-title {
+  color: #514644;
+}
+
+.special-title {
+  text-align: center;
+  color: #514644;
 }
