@@ -65,7 +65,12 @@ a {
 }
 
 .special-links {
-  display: grid;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+
+  padding-right: 400px;
+  padding-left: 400px;
 }
 
 .work-wrapper,
@@ -122,4 +127,22 @@ a {
   font-weight: bold;
   font-size: 20px;
   color: red;
+}
+
+.main-wrapper {
+  width: 1400px;
+  margin-bottom: 20px;
+  border: 1px none;
+}
+
+.footer {
+  text-align: center;
+  color: #142d4c;
+}
+
+.picture {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
