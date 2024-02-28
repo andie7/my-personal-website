@@ -14,6 +14,9 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  color: #142d4c;
+}
 nav ul {
   margin: 0;
   padding: 0;
@@ -46,7 +49,7 @@ p {
 }
 
 .contact {
-  color: #142d4c;
+  color: #fed8d7;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -54,7 +57,7 @@ p {
 
 .fa-brands.fa-linkedin-in {
   font-size: 40px;
-  color: #142d4c;
+  color: #fed8d7;
   background-color: white;
   margin: 10px auto;
 }
@@ -82,8 +85,6 @@ a {
     rgba(202, 154, 153, 1) 70%
   );
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
 }
 
 .about-app {
@@ -93,9 +94,12 @@ a {
   border-radius: 20px;
   display: block;
   background-color: white;
+  max-width: 90%;
+  max-height: 500px;
 }
 
 .web-apps a {
+  font-size: large;
   border: 1px solid;
   border-radius: 20px;
   width: 250px;
@@ -110,6 +114,7 @@ a {
     rgba(202, 154, 153, 1) 70%
   );
   background-repeat: no-repeat;
+  margin-top: 10px;
 }
 
 .web-apps {
@@ -133,6 +138,7 @@ a {
   width: 1400px;
   margin-bottom: 20px;
   border: 1px none;
+  margin-top: 80px;
 }
 
 .footer {
