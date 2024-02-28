@@ -1,21 +1,17 @@
 .nav-wrapper {
-  background: linear-gradient(
-    180deg,
-    rgba(229, 175, 155, 1) 29%,
-    rgba(202, 154, 153, 1) 70%
-  );
-  background-repeat: no-repeat;
+  background: #efc8b1;
 }
 
 h1 {
-  color: #fed8d7;
+  color: #514644;
   font-family: "Delius", cursive;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: 490;
 }
 
 h2 {
-  color: #142d4c;
+  color: #514644;
 }
 nav ul {
   margin: 0;
@@ -36,28 +32,38 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #fed8d7;
+  color: #514644;
   font-weight: 500;
   font-size: 35px;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
 p {
-  color: #585663;
+  color: #514644;
   font-size: 20px;
   text-align: justify;
   margin: 20px auto;
 }
 
 .contact {
-  color: #fed8d7;
+  color: #514644;
   font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.email {
+  color: #514644;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
 
 .fa-brands.fa-linkedin-in {
   font-size: 40px;
-  color: #fed8d7;
+  color: #514644;
   background-color: white;
   margin: 10px auto;
 }
@@ -72,19 +78,18 @@ a {
   display: flex;
   align-items: center;
 
-  padding-right: 400px;
-  padding-left: 400px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.special-links a:hover {
+  text-decoration: underline;
 }
 
 .work-wrapper,
 .contact-wrapper,
 .about-wrapper {
-  background: linear-gradient(
-    180deg,
-    rgba(229, 175, 155, 1) 29%,
-    rgba(202, 154, 153, 1) 70%
-  );
-  background-repeat: no-repeat;
+  background: #efc8b1;
 }
 
 .about-app {
@@ -99,22 +104,18 @@ a {
 }
 
 .web-apps a {
-  font-size: large;
+  font-size: 23px;
   border: 1px solid;
   border-radius: 20px;
-  width: 250px;
+  width: 300px;
   display: flex;
   justify-content: space-around;
-  color: white;
+  color: #514644;
   line-height: 2;
   height: 50px;
-  background: linear-gradient(
-    180deg,
-    rgba(229, 175, 155, 1) 29%,
-    rgba(202, 154, 153, 1) 70%
-  );
-  background-repeat: no-repeat;
+  background: #efc8b1;
   margin-top: 10px;
+  border: none;
 }
 
 .web-apps {
@@ -143,7 +144,7 @@ a {
 
 .footer {
   text-align: center;
-  color: #142d4c;
+  color: #514644;
 }
 
 .picture {
@@ -151,4 +152,20 @@ a {
   display: block;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+.github {
+  color: #514644;
+}
+
+.github:hover {
+  text-decoration: underline;
+}
+
+.back-btn {
+  color: #514644;
+}
+
+.back-btn:hover {
+  font-weight: bold;
 }
