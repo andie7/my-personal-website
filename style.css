@@ -12,6 +12,7 @@ h1 {
 
 h2 {
   color: #514644;
+  text-align: center;
 }
 nav ul {
   margin: 0;
@@ -183,6 +184,11 @@ a {
   text-align: center;
 }
 
+.text {
+  font-size: 18px;
+  text-align: justify;
+}
+
 @media (max-width: 576px) {
   .web-apps a {
     font-size: 20px;
@@ -258,5 +264,9 @@ a {
   .contact-title {
     margin-right: 5px;
     text-align: center;
+  }
+
+  .footer {
+    margin: 10px 20px;
   }
 }
