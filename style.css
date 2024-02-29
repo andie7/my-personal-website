@@ -178,3 +178,85 @@ a {
   text-align: center;
   color: #514644;
 }
+
+.contact-title {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .web-apps a {
+    font-size: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+
+    line-height: 1.5;
+    height: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .about-app {
+    padding: 10px auto;
+    margin: 10px auto;
+    display: block;
+
+    border: none;
+    max-width: 70%;
+  }
+
+  p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 20px auto;
+  }
+
+  .element {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .main-wrapper {
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px none;
+    position: relative;
+    margin-left: 10px;
+  }
+
+  .special-links {
+    display: inline;
+    display: flex;
+    align-items: center;
+
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .contact {
+    color: #514644;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .email {
+    color: #514644;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .fa-brands.fa-linkedin-in {
+    font-size: 20px;
+    color: #514644;
+    background-color: white;
+    margin: 10px auto;
+  }
+
+  .contact-title {
+    margin-right: 5px;
+    text-align: center;
+  }
+}
