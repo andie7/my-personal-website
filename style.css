@@ -28,6 +28,10 @@ nav li {
 nav {
   padding: 20px;
 }
+
+.nav-wrapper {
+  background-color: #3fb88b;
+}
 nav a {
   text-decoration: none;
   color: #514644;
@@ -227,7 +231,8 @@ a {
 
 .skills {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
+  color: #3fb88b;
 }
 
 @media (max-width: 576px) {
