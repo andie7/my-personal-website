@@ -67,6 +67,19 @@ p {
   color: #514644;
   background-color: white;
   margin: 10px auto;
+  border-radius: 50%;
+  background-color: blueviolet;
+  padding: 10px 10px;
+}
+
+.fa-regular.fa-envelope {
+  font-size: 40px;
+  color: #514644;
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: blueviolet;
+  padding: 10px 10px;
 }
 
 a {
