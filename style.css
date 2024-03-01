@@ -3,7 +3,7 @@ h1 {
   font-family: "Delius", cursive;
   text-align: center;
   font-size: 50px;
- 
+  font-weight: normal;
 }
 
 h2 {
@@ -290,15 +290,15 @@ a {
   }
 
   .footer {
-    margin-top:120px;
+    margin-top: 120px;
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .main-wrapper {
-  
-  width: 400px;
-  margin-bottom: 40px;
-  border: 1px none;
-  margin-top: 80px;
+    width: 400px;
+    margin-bottom: 40px;
+    border: 1px none;
+    margin-top: 80px;
+  }
 }
