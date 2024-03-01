@@ -294,15 +294,27 @@ a {
   }
 
   .footer {
-    margin-top: 120px;
+    margin-top: 70px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
+    width: 90%;
   }
 
   .main-wrapper {
-    width: 400px;
+    width: 90%;
     margin-bottom: 40px;
+    padding-left: 10px;
     border: 1px none;
     margin-top: 80px;
+  }
+
+  h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .certificate {
+    display: none;
   }
 }
