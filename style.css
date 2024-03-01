@@ -1,9 +1,7 @@
-.nav-wrapper {
-  background: #efc8b1;
-}
+
 
 h1 {
-  color: #514644;
+  color: #FBFF7D;
   font-family: "Delius", cursive;
   text-align: center;
   font-size: 50px;
@@ -11,8 +9,9 @@ h1 {
 }
 
 h2 {
-  color: #514644;
+  color: #3FB88B;
   text-align: center;
+  font-size: 22px;
 }
 nav ul {
   margin: 0;
@@ -64,21 +63,19 @@ p {
 
 .fa-brands.fa-linkedin-in {
   font-size: 40px;
-  color: #514644;
-  background-color: white;
-  margin: 10px auto;
+  color: #FBFF7D;
+  margin-right: 10px;
   border-radius: 50%;
-  background-color: blueviolet;
+  background-color: #3FB88B;
   padding: 10px 10px;
 }
 
 .fa-regular.fa-envelope {
   font-size: 40px;
-  color: #514644;
-  background-color: white;
-  margin: 10px auto;
+  color:  #FBFF7D;
+  margin: 40px 10px;
   border-radius: 50%;
-  background-color: blueviolet;
+  background-color: #3FB88B;
   padding: 10px 10px;
 }
 
@@ -103,7 +100,8 @@ a {
 .work-wrapper,
 .contact-wrapper,
 .about-wrapper {
-  background: #efc8b1;
+  background: #3FB88B;
+  color: #FBFF7D;
 }
 
 .about-app {
@@ -124,12 +122,13 @@ a {
   width: 500px;
   display: flex;
   justify-content: space-around;
-  color: #514644;
+  color: #FBFF7D;
   line-height: 2;
   height: 50px;
-  background: #efc8b1;
+  background: #3FB88B;
   margin-top: 10px;
   border: none;
+  text-decoration: none;
 }
 
 .web-apps {
@@ -143,11 +142,7 @@ a {
   font-size: 25px;
 }
 
-.question {
-  font-weight: bold;
-  font-size: 20px;
-  color: red;
-}
+
 
 .main-wrapper {
   width: 1400px;
@@ -211,6 +206,25 @@ a {
   margin-right: 20px;
   font-weight: bold;
   
+}
+
+.home-wrapper{
+  background-color:#3FB88B;
+  width: 80%;
+  font-size: 20px;
+  text-align: justify;
+ line-height: 2;
+ padding: 10px;
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ border-radius: 10px;
+ 
+ 
+ 
+
+ 
 }
 
 @media (max-width: 576px) {
