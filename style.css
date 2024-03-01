@@ -1,7 +1,5 @@
-
-
 h1 {
-  color: #FBFF7D;
+  color: #fbff7d;
   font-family: "Delius", cursive;
   text-align: center;
   font-size: 50px;
@@ -9,7 +7,7 @@ h1 {
 }
 
 h2 {
-  color: #3FB88B;
+  color: #3fb88b;
   text-align: center;
   font-size: 22px;
 }
@@ -63,19 +61,19 @@ p {
 
 .fa-brands.fa-linkedin-in {
   font-size: 40px;
-  color: #FBFF7D;
+  color: #fbff7d;
   margin-right: 10px;
   border-radius: 50%;
-  background-color: #3FB88B;
+  background-color: #3fb88b;
   padding: 10px 10px;
 }
 
 .fa-regular.fa-envelope {
   font-size: 40px;
-  color:  #FBFF7D;
+  color: #fbff7d;
   margin: 40px 10px;
   border-radius: 50%;
-  background-color: #3FB88B;
+  background-color: #3fb88b;
   padding: 10px 10px;
 }
 
@@ -100,19 +98,20 @@ a {
 .work-wrapper,
 .contact-wrapper,
 .about-wrapper {
-  background: #3FB88B;
-  color: #FBFF7D;
+  background: #3fb88b;
+  color: #fbff7d;
 }
 
 .about-app {
   padding: 20px;
-  margin: 30px auto;
+  margin: 20px auto;
   border: 1px solid;
+  border-color: #3fb88b;
   border-radius: 20px;
   display: block;
   background-color: white;
-  max-width: 90%;
-  max-height: 500px;
+  max-width: 95%;
+  max-height: 520px;
 }
 
 .web-apps a {
@@ -122,10 +121,10 @@ a {
   width: 500px;
   display: flex;
   justify-content: space-around;
-  color: #FBFF7D;
+  color: #fbff7d;
   line-height: 2;
   height: 50px;
-  background: #3FB88B;
+  background: #3fb88b;
   margin-top: 10px;
   border: none;
   text-decoration: none;
@@ -141,8 +140,6 @@ a {
   font-weight: bold;
   font-size: 25px;
 }
-
-
 
 .main-wrapper {
   width: 1400px;
@@ -197,34 +194,35 @@ a {
   text-align: justify;
 }
 
-.certificate{
-  border 1px solid;
+.certificate {
+  border-style: solid;
+  border-color: #3fb88b;
   padding: 10px 20px;
-  background-color: blueviolet;
-  color: white;
+  background-color: white;
+  color: #3fb88b;
   border-radius: 20px;
   margin-right: 20px;
   font-weight: bold;
-  
+  font-size: 17px;
 }
 
-.home-wrapper{
-  background-color:#3FB88B;
+.home-wrapper {
+  background-color: #3fb88b;
   width: 80%;
   font-size: 20px;
   text-align: justify;
- line-height: 2;
- padding: 10px;
- position: absolute;
- top:50%;
- left:50%;
- transform:translate(-50%,-50%);
- border-radius: 10px;
- 
- 
- 
+  line-height: 2;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
 
- 
+.skills {
+  font-weight: bold;
+  font-size: 24px;
 }
 
 @media (max-width: 576px) {
