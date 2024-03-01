@@ -1,3 +1,5 @@
+
+
 h1 {
   color: #fbff7d;
   font-family: "Delius", cursive;
@@ -12,10 +14,17 @@ h2 {
   font-size: 20px;
 }
 
-h3 {
-  color: #b3fdfe;
+h4 {
+  color: #ffa453;
+  font-size: 25px;
+  line-height: 3;
   text-align: center;
-  font-size: 30px;
+  margin-top: 20px;
+}
+
+.home {
+  font-size: 45px;
+  font-family:font-family: "Poppins", sans-serif; 
 }
 nav ul {
   margin: 0;
@@ -104,8 +113,8 @@ a {
   border-radius: 20px;
   display: block;
   background-color: white;
-  max-width: 95%;
-  max-height: 520px;
+  width: 100%;
+  max-height: 635px;
 }
 
 .web-apps a {
@@ -196,13 +205,13 @@ a {
 .certificate {
   border-style: solid;
   border-color: #3fb88b;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: white;
   color: #3fb88b;
   border-radius: 20px;
-  margin-right: 20px;
+  margin-right: 5px;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .certificate:hover {
@@ -212,8 +221,8 @@ a {
 
 .home-wrapper {
   background-color: #3fb88b;
-  width: 80%;
-  font-size: 20px;
+  width: 70%;
+  font-size: 18px;
   text-align: justify;
   line-height: 2;
   padding: 10px;
@@ -222,6 +231,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
+  margin-top: 40px;
 }
 
 .skills {
