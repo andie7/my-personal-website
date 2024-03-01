@@ -1,4 +1,15 @@
+.nav-color{
+  background-color: #3fb88b;
+ 
+}
 
+.nav-link{color: #fbff7d;
+font-weight: bold;}
+
+.navbar-brand{font-size: 35px;
+border: none;
+text-decoration: none;
+}
 
 h1 {
   color: #fbff7d;
