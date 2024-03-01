@@ -124,6 +124,10 @@ a {
   text-decoration: none;
 }
 
+.web-apps a:hover {
+  color: #3fb88b;
+  background: #fbff7d;
+}
 .web-apps {
   display: grid;
   justify-content: center;
