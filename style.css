@@ -284,19 +284,9 @@ a {
     margin-left: 20px;
   }
 
-  .email {
-    color: #514644;
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: center;
-  }
 
-  .fa-brands.fa-linkedin-in {
-    font-size: 20px;
-    color: #514644;
-    background-color: white;
-    margin: 10px auto;
-  }
+
+ 
 
   .contact-title {
     margin-right: 5px;
@@ -304,6 +294,15 @@ a {
   }
 
   .footer {
-    margin: 10px 20px;
+    margin-top:120px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
+
+  .main-wrapper {
+  
+  width: 400px;
+  margin-bottom: 40px;
+  border: 1px none;
+  margin-top: 80px;
 }
