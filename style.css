@@ -202,6 +202,17 @@ a {
   text-align: justify;
 }
 
+.certificate{
+  border 1px solid;
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  
+}
+
 @media (max-width: 576px) {
   .web-apps a {
     font-size: 20px;
