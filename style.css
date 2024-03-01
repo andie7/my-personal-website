@@ -7,9 +7,9 @@ h1 {
 }
 
 h2 {
-  color: #3fb88b;
+  color: #9d9ea0;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
 }
 nav ul {
   margin: 0;
@@ -49,35 +49,21 @@ p {
   margin: 20px auto;
 }
 
-.contact {
-  color: #514644;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.email {
-  color: #514644;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
 .fa-brands.fa-linkedin-in {
   font-size: 40px;
-  color: #fbff7d;
-  margin-right: 10px;
+  color: #3fb88b;
+  margin: 10px 10px;
   border-radius: 50%;
-  background-color: #3fb88b;
+  background-color: #fbff7d;
   padding: 10px 10px;
 }
 
 .fa-regular.fa-envelope {
   font-size: 40px;
-  color: #fbff7d;
-  margin: 40px 10px;
+  color: #3fb88b;
+  margin: 10px 10px;
   border-radius: 50%;
-  background-color: #3fb88b;
+  background-color: #fbff7d;
   padding: 10px 10px;
 }
 
@@ -87,16 +73,14 @@ a {
 }
 
 .special-links {
-  display: inline-block;
+  display: inline;
   display: flex;
-  align-items: center;
-
-  padding-right: 300px;
-  padding-left: 300px;
+  justify-content: space-evenly;
 }
 
 .special-links a:hover {
-  text-decoration: underline;
+  background-color: #3fb88b;
+  color: #fbff7d;
 }
 
 .work-wrapper,
