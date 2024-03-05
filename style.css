@@ -14,12 +14,24 @@ padding-top: 10px;
 margin-left: 10px;
 }
 
+
+
 h1 {
   color: #1f1c29;
-  font-family: "Delius", cursive;
-  text-align: center;
-  font-size: 50px;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 20px;
+}
+
+h4 {
+  color: #1f1c29;
+  font-family:"Poppins", sans-serif;
+  font-size: 13px;
   font-weight: normal;
+text-align: left;
+line-height: 1;
 }
 
 h2 {
@@ -28,13 +40,7 @@ h2 {
   font-size: 20px;
 }
 
-h4 {
-  color: #ffa453;
-  font-size: 25px;
-  line-height: 3;
-  text-align: center;
-  margin-top: 20px;
-}
+
 
 .home {
   font-size: 45px;
@@ -253,6 +259,12 @@ a {
   font-size: 22px;
   color: #3fb88b;
 }
+
+ul{
+list-style: none;
+}
+
+li{list-style: none;}
 
 @media (max-width: 576px) {
   .web-apps a {
