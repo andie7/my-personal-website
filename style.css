@@ -1,18 +1,21 @@
 .nav-color{
-  background-color: #3fb88b;
+  background-color: #ffffff;
  
 }
 
-.nav-link{color: #fbff7d;
-font-weight: bold;}
+.nav-link{color: black;
+font-weight: normal;}
 
-.navbar-brand{font-size: 35px;
+.navbar-brand{
 border: none;
 text-decoration: none;
+max-width: 80px;
+padding-top: 10px;
+margin-left: 10px;
 }
 
 h1 {
-  color: #fbff7d;
+  color: #1f1c29;
   font-family: "Delius", cursive;
   text-align: center;
   font-size: 50px;
@@ -231,7 +234,7 @@ a {
 }
 
 .home-wrapper {
-  background-color: #3fb88b;
+  background-color: white;
   width: 70%;
   font-size: 18px;
   text-align: justify;
