@@ -426,7 +426,7 @@ li{list-style: none;}
   border-radius: 10px;
   padding: 10px auto;
   position: absolute;
-top:563px;
+top:655px;
 left:500px;
 transform: translate(-50%, -50%) ;
   font-size: 20px; 
@@ -440,7 +440,7 @@ transform: translate(-50%, -50%) ;
 
 .form-wrapper{display: inline-block;
 position:absolute;
-top:27%;
+top:40%;
 left:30%;
 transition: translate(-50%, -50%);
 width: 40%;
