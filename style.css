@@ -68,6 +68,12 @@ h1 {
   text-align: ;
 }
 
+h2{
+  text-align: center;
+   font-size: 50px; 
+
+}
+
 h4 {
   color: black;
   font-family:"Poppins", sans-serif;
@@ -187,7 +193,7 @@ a {
 
 .about-wrapper {
   background: #53a8b6;
-  height: 500px;
+  height: 400px;
   padding-top: 20px;
   background-repeat: none;
   
@@ -207,6 +213,12 @@ a {
 
 .about{
   color: white;
+}
+
+.skills-title{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center ;
 }
 
 
@@ -344,10 +356,13 @@ a {
 }
 
 .skills-wrapper {
-  background: white;
-  height: 600px;
+  background: #fdfdfd;
+  height: 500px;
   padding-top: 20px;
+  
 }
+
+
 
 .skills li {
   font-size: 20px;
