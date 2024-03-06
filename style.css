@@ -187,7 +187,7 @@ a {
 }
 
 .special-links a:hover {
-  background-color: #53a8b6;
+  background-color: black;
   color: white;
 }
 
@@ -486,7 +486,14 @@ left:20px;
   margin-left: 10px;
 }
 
+  .fa-brands.fa-html5, .fa-brands.fa-css3-alt,.fa-brands.fa-js, .fa-brands.fa-react{
+      font-size: 35px;
+  margin-right: 20px;
+  margin-left: 10px;
+  color:#0F4C81;
+  }
 
+ 
 
 @media (max-width: 576px) {
 
