@@ -46,9 +46,9 @@ margin-left: 10px;
 
 .second-title {
    font-family:"Poppins", sans-serif;
+   font-size: 35px;
   white-space: nowrap; 
   color: black;
-  
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -193,7 +193,7 @@ a {
 
 .about-wrapper {
   background: #53a8b6;
-  height: 400px;
+  height: 500px;
   padding-top: 20px;
   background-repeat: none;
   
@@ -467,6 +467,26 @@ background-size: 100%;
 top:25px;
 left:20px;
 }
+
+.shecodes{
+  color: white;
+  text-decoration: underline;
+ 
+}
+
+.shecodes:hover{
+  color: black;
+  text-decoration: underline;
+  background-color: white;
+}
+
+.fa-solid.fa-book-open, .fa-solid.fa-music, .fa-solid.fa-person-swimming, .fa-solid.fa-person-running{
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+
 
 @media (max-width: 576px) {
 
