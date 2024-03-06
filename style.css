@@ -44,7 +44,7 @@ margin-left: 10px;
   left: 0;
 }
 
-.text {
+.second-title {
    font-family:"Poppins", sans-serif;
   white-space: nowrap; 
   color: black;
@@ -77,11 +77,8 @@ text-align: left;
 line-height: 1.5;
 }
 
-h2 {
-  color: #514644;
-  text-align: center;
-  font-size: 50px;
-}
+
+
 
 h3{
   color:black;
@@ -89,6 +86,14 @@ h3{
   text-align: center;
   font-size: 50px;
 }
+
+.portfolio-title{
+   color:black;
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
 
 
 
@@ -224,17 +229,17 @@ a {
   width: 500px;
   display: flex;
   justify-content: space-around;
-  color: #fbff7d;
+  color: white;
   line-height: 2;
   height: 50px;
-  background: #3fb88b;
+  background: #2bd0d1;
   margin-top: 10px;
   border: none;
   text-decoration: none;
 }
 
 .web-apps a:hover {
-  color: #3fb88b;
+  color: #2bd0d1;
   background: #fbff7d;
 }
 .web-apps {
@@ -273,7 +278,7 @@ a {
 }
 
 .back-btn {
-  color: #3fb88b;
+  color: black;
 }
 
 .back-btn:hover {
@@ -281,13 +286,10 @@ a {
 }
 
 .app-title {
-  color: #514644;
+  color: black;
 }
+#514644
 
-.special-title {
-  text-align: center;
-  color: #514644;
-}
 
 .contact-title {
   text-align: center;
