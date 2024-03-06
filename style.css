@@ -14,24 +14,67 @@ padding-top: 10px;
 margin-left: 10px;
 }
 
+.container {
+  position: relative;
+  width: 90%;
+  height: 500px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+ max-height: 500px;
+ opacity: 0.3;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: white;
+  overflow:auto;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+   font-family:"Poppins", sans-serif;
+  white-space: nowrap; 
+  color: black;
+  
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 h1 {
   color: #1f1c29;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 1.5;
   text-align: left;
   margin-top: 20px;
+  text-align: center;
 }
 
 h4 {
-  color: #1f1c29;
+  color: black;
   font-family:"Poppins", sans-serif;
   font-size: 10px;
   font-weight: normal;
 text-align: left;
-line-height: 1;
+line-height: 1.5;
 }
 
 h2 {
@@ -117,6 +160,8 @@ a {
   display: inline;
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+  top:360px;
 }
 
 .special-links a:hover {
@@ -179,8 +224,10 @@ a {
 .footer {
   text-align: center;
   color: #514644;
-  margin-top: 30px;
-}
+ position: relative;
+top:380px;
+left:50px;
+text-align: center;}
 
 .picture {
   margin: 0 auto;
@@ -266,6 +313,50 @@ list-style: none;
 }
 
 li{list-style: none;}
+
+.input-text {
+  width: 70%;
+  height: 40px;
+  border-bottom: 1px solid;
+  border-color: grey;
+  margin: 5% 15%;
+   background-color: white;
+ 
+  border-radius: 10px;
+  padding: 20px 20px;
+  color:white;
+ 
+}
+
+.submit-btn {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  border-bottom: 1px solid;
+  border-color: grey;
+   margin: 5% 15%;
+   color: black;
+  border-radius: 10px;
+  padding: 10px auto;
+  position: absolute;
+top:520px;
+left:500px;
+transform: translate(-50%, -50%) ;
+
+
+  font-size: 20px;
+ 
+}
+.form-wrapper{display: inline-block;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%) ;
+background-color: grey;
+width: 40%;
+padding:20px 10px;
+margin-top: 5px;}
 
 @media (max-width: 576px) {
   .web-apps a {
@@ -386,10 +477,5 @@ text-decoration: none;
   font-size: 30px;
 }
 
-.footer-wrapper{
 
-  background-color: #232027;
-  height: 300px;
-  padding-top: 40px;
-}
 
