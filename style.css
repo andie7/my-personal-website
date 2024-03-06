@@ -297,20 +297,29 @@ text-align: center;}
   text-align: justify;
 }
 
+.certificate-wrapper {
+  background-color: #f0f1f6;
+  height: 250px;
+  padding-top: 30px;
+  
+}
+
 .certificate {
   border-style: solid;
-  border-color: #3fb88b;
+  border-color: black;
   padding: 10px 10px;
   background-color: white;
-  color: #3fb88b;
+  color: black;
   border-radius: 20px;
-  margin-right: 5px;
+  margin-right: 10px;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 25 px;
+  width: 20%;
+  text-align: center;
 }
 
 .certificate:hover {
-  background-color: #3fb88b;
+  background-color: grey;
   color: white;
 }
 
@@ -329,10 +338,27 @@ text-align: center;}
   margin-top: 40px;
 }
 
-.skills {
+.skills-wrapper {
+  background-color: #f0f1f6;
+  height: 600px;
+  padding-top: 20px;
+}
+
+.skills li {
+  font-size: 20px;
+  color: black;
+}
+
+.sub-skills {
   font-weight: bold;
   font-size: 22px;
-  color: #3fb88b;
+  color: black;
+}
+
+.skills-title {
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
 }
 
 ul{
