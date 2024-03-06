@@ -181,7 +181,7 @@ a {
 }
 
 .about-wrapper {
-  background: #B3FDFE;
+  background: #53a8b6;
   height: 500px;
   padding-top: 20px;
   background-repeat: none;
@@ -198,6 +198,10 @@ a {
   font-size: 20px;
   margin-left: 10px;
 
+}
+
+.about{
+  color: white;
 }
 
 
@@ -297,7 +301,7 @@ a {
 .certificate-wrapper {
   background:#fbff7d;
   
-  height: 250px;
+  height: 180px;
   padding-top: 30px;
   opacity: 0.9 ;
   
@@ -318,7 +322,7 @@ a {
 }
 
 .certificate:hover {
-  background-color: #6697A5;
+  background-color: #3fb88b;
   color: white;
 }
 
@@ -408,12 +412,14 @@ li{list-style: none;}
 top:563px;
 left:500px;
 transform: translate(-50%, -50%) ;
-  font-size: 20px;
+  font-size: 20px; 
+ }
 
-  
- 
-}
-
+ .submit-btn:hover{
+  background-color: #3fb88b;
+  color:white;
+  border:#3fb88b;
+ }
 
 .form-wrapper{display: inline-block;
 position:absolute;
