@@ -80,7 +80,7 @@ line-height: 1.5;
 h2 {
   color: #514644;
   text-align: center;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 h3{
@@ -179,6 +179,23 @@ a {
   color: white;
 }
 
+.about-wrapper {
+  background-color: #f0f1f6;
+  height: 500px;
+  padding-top: 20px;
+}
+
+.about ul{
+  font-size: 20px;
+  margin-left: 10px;
+  line-height: 2;
+}
+
+.about li{
+  font-size: 20px;
+  margin-left: 10px;
+
+}
 
 
 .about-app {
