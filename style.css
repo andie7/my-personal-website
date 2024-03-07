@@ -669,7 +669,7 @@ li {
 
   .about-wrapper {
     background: #53a8b6;
-    height: 800px;
+    height: fit-content;
     padding-top: 20px;
     background-repeat: none;
   }
@@ -694,8 +694,9 @@ li {
   .certificate-wrapper {
     background: #fbff7d;
 
-    height: 450px;
+    height: fit-content;
     padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .certificate {
@@ -786,5 +787,63 @@ li {
     top: 500px;
     left: 20px;
     width: 80%;
+  }
+
+  .footer-border {
+    background-color: #040203;
+    height: fit-content;
+    margin-bottom: 0;
+  }
+
+  .single-hr {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0;
+  }
+
+  .footer-section {
+    height: fit-content;
+    margin: 0px;
+    padding-bottom: 40px;
+  }
+
+  .footer-contact {
+    width: 300px;
+    margin-left: 50px;
+    color: #41444b;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 20px;
+  }
+
+  #474a56 #41444b h6 {
+    font-weight: bold;
+  }
+
+  .contact-me {
+    color: #41444b;
+    opacity: 0.7;
+    font-size: 25px;
+  }
+
+  .footer-logo {
+    border: none;
+    text-decoration: none;
+    max-width: 100px;
+    padding-top: 40px;
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .brand-title {
+    color: #41444b;
+    opacity: 0.6;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .format-contact {
+    margin-left: 40px;
   }
 }
