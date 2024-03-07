@@ -20,6 +20,8 @@ margin-left: 10px;
   height: 500px;
 }
 
+
+
 .image {
   display: block;
   width: 100%;
@@ -493,7 +495,35 @@ left:20px;
   color:#0F4C81;
   }
 
+  .footer-border {
+  background-color: #040203;
+  height: 350px;
+  padding-top: 40px;
+}
+
+.fas.fa-map-marker-alt{
+  color:white;
+  font-size: 25px;
  
+}
+
+.single-hr{
+  margin-top:-70px;
+}
+ 
+.map{
+  position: relative;
+  top:10px;
+  left: -230px;
+
+}
+
+.container-footer {
+  position: relative;
+  width: 80%;
+  margin-left: 40px;
+  padding: 25px;
+}
 
 @media (max-width: 576px) {
 
