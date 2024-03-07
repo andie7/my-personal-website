@@ -559,8 +559,8 @@ li {
   color: black;
   width: fit-content;
   line-height: 2;
+  letter-spacing: normal;
 }
-
 @media (max-width: 576px) {
   h1 {
     font-size: 22px;
@@ -667,12 +667,14 @@ li {
     font-family: "Poppins", sans-serif;
     white-space: nowrap;
     color: black;
+    font-size: 30px;
+    width: fit-content;
 
     position: absolute;
     overflow: hidden;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-80%, -10%);
     -ms-transform: translate(-50%, -50%);
   }
 
@@ -724,11 +726,11 @@ li {
   .form-wrapper {
     display: inline-block;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 0%;
     transition: translate(-50%, -50%);
     width: 90%;
-    height: 500px;
+    height: fit-content;
     padding: 20px 10px;
     margin: 10px 20px;
     background: #fbff7d;
@@ -759,7 +761,7 @@ li {
     border-radius: 10px;
     padding: 10px auto;
     position: absolute;
-    top: 600px;
+    top: 580px;
     left: 200px;
     transform: translate(-50%, -50%);
     font-size: 20px;
@@ -793,9 +795,9 @@ li {
     text-align: center;
     color: black;
     position: relative;
-    top: 500px;
+    top: 30px;
     left: 20px;
-    width: 80%;
+    width: 90%;
   }
 
   .footer-border {
