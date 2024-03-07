@@ -1,6 +1,10 @@
-function showForm() {
-  document.getElementById("formElement");
+function handleSubmission(event) {
+  event.preventDefault();
+
+  form.submit();
+  alert("Thank you for your message");
 }
 
-let sendMessage = document.getElementById("write");
-sendMessage.addEventListener("click", showForm);
+let button = document.getElementById("submit-button");
+let form = document.getElementById("formElement");
+button.addEventListener("click", handleSubmission);
