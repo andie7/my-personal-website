@@ -188,22 +188,20 @@ a {
   background: #53a8b6;
   height: 500px;
   padding-top: 20px;
-  background-repeat: none;
 }
 
 .about ul {
   font-size: 20px;
-  margin-left: 10px;
   line-height: 2;
 }
 
 .about li {
   font-size: 20px;
-  margin-left: 10px;
 }
 
 .about {
   color: white;
+  margin-right: 30px;
 }
 
 .skills-title {
@@ -550,6 +548,17 @@ li {
 
 .new-contact {
   color: #41444b;
+}
+
+.form:focus {
+  border-color: black;
+  box-shadow: 0 0 0 0.2rem black;
+}
+
+.project-description {
+  color: black;
+  width: fit-content;
+  line-height: 2;
 }
 
 @media (max-width: 576px) {
