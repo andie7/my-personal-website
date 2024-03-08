@@ -201,15 +201,20 @@ B6F2CD
 .about-wrapper {
  
   height: fit-content;
-  padding-top: 20px;
+
+
+
  
 }
-#53a8b6;
+
 .about ul{
   line-height: 2;
 }
 
-
+.about-title{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 
 .about {
   color: black;
@@ -357,8 +362,9 @@ line-height: 2;
 .skills-wrapper {
   background: #fdfdfd;
   height: 10px;
-  margin-top: 20px;
+ margin-top: 20px;
   padding-top: 20px;
+  
 }
 
 .skills li {
@@ -376,6 +382,7 @@ line-height: 2;
   font-weight: bold;
   font-size: 22px;
   color: black;
+  margin-top: 70px;
 }
 
 ul {
