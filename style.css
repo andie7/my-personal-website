@@ -65,7 +65,6 @@ h1 {
   line-height: 1.5;
   text-align: left;
   margin-top: 20px;
-  text-align: ;
 }
 
 h2 {
@@ -239,8 +238,8 @@ a {
 }
 
 .web-apps a:hover {
-  color: #2bd0d1;
-  background: #fbff7d;
+  color: white;
+  background: #3fb88b;
 }
 .web-apps {
   display: grid;
@@ -278,7 +277,7 @@ a {
 .app-title {
   color: black;
 }
-#514644 .contact-title {
+.contact-title {
   text-align: center;
 }
 
@@ -675,10 +674,9 @@ h6 {
   }
 
   .about-wrapper {
-    background: #53a8b6;
     height: fit-content;
     padding-top: 20px;
-    background-repeat: none;
+    margin: 10px 30px;
   }
 
   .about li {
@@ -694,8 +692,9 @@ h6 {
 
   .skills-wrapper {
     background: #fdfdfd;
-    height: fit-content;
-    padding-top: 20px;
+    height: 1400px;
+    padding-top: 10px;
+    margin: 10px 20px;
   }
 
   .certificate-wrapper {
