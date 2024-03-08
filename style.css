@@ -696,14 +696,15 @@ h6 {
 
   .second-title {
     font-family: "Poppins", sans-serif;
-    white-space: nowrap;
+    white-space: normal;
     color: black;
-    font-size: 30px;
+    font-size: 26px;
     width: fit-content;
-
+text-align: center;
     position: absolute;
     overflow: hidden;
-    top: 50%;
+    margin-left: 50px;
+    top: 20%;
     left: 50%;
     transform: translate(-80%, -10%);
     -ms-transform: translate(-50%, -50%);
