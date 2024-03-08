@@ -183,12 +183,25 @@ a {
   color: white;
 }
 
+.first-part {
+  background-color: #A7DBD7
+;
+}
+B6F2CD
+#A3E4DB
+#B7FFE7
+#D8E3D3
+
+
+#E3FED2
+#A7DBD7
+
 .about-wrapper {
-  background: #53a8b6;
+ 
   height: 500px;
   padding-top: 20px;
 }
-
+#53a8b6;
 .about ul {
   font-size: 20px;
   line-height: 2;
@@ -199,10 +212,20 @@ a {
 }
 
 .about {
-  color: white;
-  margin-right: 30px;
+  color: black;
+ line-height: 2;
+  background-color: #BFD5C9;
+  height: 500px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+
+#D8E3D3
+#B7FFE7
+#D8E3D3
+#B6F2CD;
 .skills-title {
   margin-top: 100px;
   margin-bottom: 30px;
@@ -439,14 +462,14 @@ li {
 }
 
 .shecodes {
-  color: white;
+color:black;
   text-decoration: underline;
 }
 
 .shecodes:hover {
   color: black;
   text-decoration: underline;
-  background-color: white;
+  font-weight: bold;
 }
 
 .fa-solid.fa-book-open,
