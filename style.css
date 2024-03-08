@@ -200,25 +200,27 @@ B6F2CD
 
 .about-wrapper {
  
-  height: 500px;
+  height: fit-content;
   padding-top: 20px;
+ 
 }
 #53a8b6;
-.about ul {
-  font-size: 20px;
+.about ul{
   line-height: 2;
 }
 
-.about li {
-  font-size: 20px;
-}
+
 
 .about {
   color: black;
- line-height: 2;
+line-height: 2;
   background-color: #BFD5C9;
   height: 500px;
   padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+   font-size: 20px;
  
 }
 
@@ -356,6 +358,7 @@ B6F2CD
   background: #fdfdfd;
   height: 10px;
   margin-top: 20px;
+  padding-top: 20px;
 }
 
 .skills li {
@@ -605,7 +608,7 @@ h6 {
     display: block;
 
     border: none;
-    max-width: 70%;
+    max-width: 80%;
   }
 
   p {
@@ -721,15 +724,12 @@ h6 {
    
   }
 
-    .container-skills{
-    margin-top: 60px;
-    margin-bottom: 20px;
-  }
+ 
   .skills-wrapper {
     background: #fdfdfd;
     height: 1500px;
-   padding-top: 50px;
-    margin: 10px auto;
+    
+ 
   }
 
   .about {
@@ -738,12 +738,26 @@ h6 {
   background-color: #BFD5C9;
   height: fit-content;
   padding-top: 20px;
-  width: 110%;
-  margin: 20px auto;
+  width: 105%;
+  margin-left: 20px;
+  padding-bottom: 20px;}
+  
+
+   
+   .first-part{
+    margin-bottom: 20px;
+    margin-left:30px;
+  
+   
+
+   }
    
  
   
-}
+   
+ 
+  
+
 
   .certificate-wrapper {
     background: #fbff7d;
@@ -827,8 +841,8 @@ h6 {
   .footer-border {
     background-color: #040203;
     height: fit-content;
-    margin-bottom: 0;
-    margin-right: 0;
+    width: 110%
+ 
   }
 
   .single-hr {
