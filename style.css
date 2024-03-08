@@ -21,6 +21,8 @@
   height: 500px;
 }
 
+
+
 .image {
   display: block;
   width: 100%;
@@ -217,8 +219,7 @@ B6F2CD
   background-color: #BFD5C9;
   height: 500px;
   padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+ 
 }
 
 
@@ -697,28 +698,50 @@ h6 {
   }
 
   .about-wrapper {
-    height: fit-content;
+    height: auto;
     padding-top: 20px;
-    margin: 10px 30px;
+
+    margin-bottom: 80px;
+  
   }
 
   .about li {
     font-size: 18px;
-    margin-right: 10px;
+   
     line-height: 2;
+    margin:0;
   }
 
   .about ul {
     font-size: 18px;
     max-width: 90%;
+    margin:0;
+   
   }
 
+    .container-skills{
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
   .skills-wrapper {
     background: #fdfdfd;
-    height: 1400px;
-    padding-top: 10px;
-    margin: 10px 20px;
+    height: 1500px;
+   padding-top: 50px;
+    margin: 10px auto;
   }
+
+  .about {
+  color: black;
+ line-height: 2;
+  background-color: #BFD5C9;
+  height: fit-content;
+  padding-top: 20px;
+  width: 110%;
+  margin: 20px auto;
+   
+ 
+  
+}
 
   .certificate-wrapper {
     background: #fbff7d;
@@ -803,6 +826,7 @@ h6 {
     background-color: #040203;
     height: fit-content;
     margin-bottom: 0;
+    margin-right: 0;
   }
 
   .single-hr {
@@ -874,4 +898,6 @@ h6 {
     transform: translate(-50%, -50%);
     font-size: 20px;
   }
+
+
 }
