@@ -470,13 +470,13 @@ li {
 }
 
 .footer-border {
-  background-color: #040203;
+  background-color: #28282b;
   height: 360px;
   margin: 0;
   padding: 0;
 }
 
-.fas.fa-map-marker-alt {
+#040203 .fas.fa-map-marker-alt {
   color: red;
   font-size: 25px;
 }
@@ -503,19 +503,19 @@ li {
 .footer-contact {
   width: 300px;
   margin-left: 150px;
-  color: #41444b;
+  color: #dbd8e3;
   font-weight: bold;
-  opacity: 0.7;
+  opacity: 0.6;
   font-size: 20px;
 }
 
-#474a56 #41444b h6 {
+h6 {
   font-weight: bold;
 }
 
 .contact-me {
-  color: #41444b;
-  opacity: 0.7;
+  color: #dbd8e3;
+  opacity: 0.6;
   font-size: 25px;
 }
 
@@ -530,7 +530,7 @@ li {
 }
 
 .brand-title {
-  color: #41444b;
+  color: #dbd8e3;
   opacity: 0.6;
 }
 
@@ -539,7 +539,8 @@ li {
 }
 
 .new-contact {
-  color: #41444b;
+  color: #dbd8e3;
+  opacity: 0.6;
 }
 
 .form:focus {
