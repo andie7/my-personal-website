@@ -252,10 +252,10 @@ B6F2CD
   width: 500px;
   display: flex;
   justify-content: space-around;
-  color: white;
+  color: black;
   line-height: 2;
   height: 50px;
-  background: #2bd0d1;
+  background:#A7DBD7;
   margin-top: 10px;
   border: none;
   text-decoration: none;
@@ -263,7 +263,7 @@ B6F2CD
 
 .web-apps a:hover {
   color: white;
-  background: #3fb88b;
+  background: #2bd0d1;
 }
 .web-apps {
   display: grid;
@@ -426,10 +426,12 @@ li {
   font-size: 20px;
 }
 
+
 .submit-btn:hover {
-  background-color: #3fb88b;
-  color: white;
-  border: #3fb88b;
+  background-color: #A7DBD7;
+  color: black;
+  border:none;
+  
 }
 
 .form-wrapper {
