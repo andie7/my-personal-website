@@ -476,7 +476,7 @@ li {
   padding: 0;
 }
 
-#040203 .fas.fa-map-marker-alt {
+.fas.fa-map-marker-alt {
   color: red;
   font-size: 25px;
 }
@@ -504,7 +504,6 @@ li {
   width: 300px;
   margin-left: 150px;
   color: #dbd8e3;
-  font-weight: bold;
   opacity: 0.6;
   font-size: 20px;
 }
