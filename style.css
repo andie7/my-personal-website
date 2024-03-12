@@ -588,6 +588,11 @@ h6 {
   line-height: 2;
   letter-spacing: normal;
 }
+
+.img-format{
+  width:100px;
+  height: 10px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 22px;
