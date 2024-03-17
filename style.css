@@ -5,14 +5,14 @@
 .nav-link {
   color: black;
   font-weight: normal;
-transition: transform ease 300ms;}
-   
-  .nav-link:hover{
-    transform: translate(0, -10px);
-    text-decoration: underline;
-    font-weight: bold;
-  }
+  transition: transform ease 300ms;
+}
 
+.nav-link:hover {
+  transform: translate(0, -10px);
+  text-decoration: underline;
+  font-weight: bold;
+}
 
 .navbar-brand {
   border: none;
@@ -27,8 +27,6 @@ transition: transform ease 300ms;}
   width: 90%;
   height: 500px;
 }
-
-
 
 .image {
   display: block;
@@ -67,39 +65,35 @@ transition: transform ease 300ms;}
   -ms-transform: translate(-50%, -50%);
 }
 
-.scroll-container{
-  background: #333;
+.scroll-container {
+  background: #fbff7d;
   overflow: auto;
-    white-space: nowrap;
-  padding:10px;
- 
-}
-
-.scroll-container img{
+  white-space: nowrap;
   padding: 10px;
- 
 }
 
-.format-image{
-  width:260px;
+.scroll-container img {
+  padding: 10px;
+}
+
+.format-image {
+  width: 260px;
   margin-left: 180px;
-
 }
 
-.adapt-image{
+.adapt-image {
   width: 230px;
-
-
 }
 
-.scroll-image{
-  width:400px;
+.scroll-image {
+  width: 400px;
 }
 
-  .br{display: block;
+.br {
+  display: block;
   margin-top: 100px;
-  line-height: 150%;}
-
+  line-height: 150%;
+}
 
 h1 {
   color: #1f1c29;
@@ -227,54 +221,35 @@ a {
 }
 
 .first-part {
-  background-color: #A7DBD7
-;
+  border: 15px solid;
+  border-color: #bfd5c9;
 }
-B6F2CD
-#A3E4DB
-#B7FFE7
-#D8E3D3
-
-
-#E3FED2
-#A7DBD7
 
 .about-wrapper {
- 
   height: fit-content;
-
-
-
- 
 }
 
-.about ul{
+.about ul {
   line-height: 2;
 }
 
-.about-title{
+.about-title {
   margin-top: 50px;
   margin-bottom: 20px;
 }
 
 .about {
   color: black;
-line-height: 2;
-  background-color: #BFD5C9;
+  line-height: 2;
+  background-color: #bfd5c9;
   height: 500px;
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
   text-align: left;
-   font-size: 20px;
- 
+  font-size: 20px;
 }
 
-
-#D8E3D3
-#B7FFE7
-#D8E3D3
-#B6F2CD;
 .skills-title {
   margin-top: 100px;
   margin-bottom: 30px;
@@ -293,7 +268,6 @@ line-height: 2;
   max-height: 635px;
 }
 
-
 .web-apps a {
   font-size: 23px;
   border: 1px solid;
@@ -304,7 +278,7 @@ line-height: 2;
   color: white;
   line-height: 2;
   height: 50px;
-  background:#b3b3b7;
+  background: #b3b3b7;
   margin-top: 10px;
   border: none;
   border-color: #333;
@@ -338,8 +312,9 @@ line-height: 2;
   display: block;
   margin-top: 30px;
   margin-bottom: 20px;
-  width:200px;
+  width: 150px;
   border-radius: 5px;
+  height: 190px;
 }
 
 .github {
@@ -407,9 +382,8 @@ line-height: 2;
 .skills-wrapper {
   background: #fdfdfd;
   height: 10px;
- margin-top: 20px;
+  margin-top: 20px;
   padding-top: 20px;
-  
 }
 
 .skills li {
@@ -481,12 +455,10 @@ li {
   font-size: 20px;
 }
 
-
 .submit-btn:hover {
-  background-color: #A7DBD7;
+  background-color: #a7dbd7;
   color: black;
-  border:none;
-  
+  border: none;
 }
 
 .form-wrapper {
@@ -520,7 +492,7 @@ li {
 }
 
 .shecodes {
-color:black;
+  color: black;
   text-decoration: underline;
 }
 
@@ -557,7 +529,7 @@ color:black;
 }
 
 .fas.fa-map-marker-alt {
-  color: red;
+  color: #dbd8e3;
   font-size: 25px;
 }
 
@@ -630,29 +602,24 @@ h6 {
 .project-description {
   color: black;
   width: fit-content;
-  line-height:2;
+  line-height: 2;
   letter-spacing: normal;
   font-size: 18px;
- 
 }
 
-.build{
+.build {
   color: black;
   width: fit-content;
   line-height: 1.8;
   letter-spacing: normal;
   font-size: 18px;
-
-
 }
 
-.img-format{
-  width:100px;
+.img-format {
+  width: 100px;
   height: 10px;
 }
 @media (max-width: 576px) {
-
- 
   h1 {
     font-size: 22px;
   }
@@ -764,7 +731,7 @@ h6 {
     color: black;
     font-size: 26px;
     width: fit-content;
-text-align: center;
+    text-align: center;
     position: absolute;
     overflow: hidden;
     margin-left: 50px;
@@ -779,57 +746,41 @@ text-align: center;
     padding-top: 20px;
 
     margin-bottom: 80px;
-  
   }
 
   .about li {
     font-size: 18px;
-   
+
     line-height: 2;
-    margin:0;
+    margin: 0;
   }
 
   .about ul {
     font-size: 18px;
     max-width: 90%;
-    margin:0;
-   
+    margin: 0;
   }
 
- 
   .skills-wrapper {
     background: #fdfdfd;
     height: 1500px;
-    
- 
   }
 
   .about {
-  color: black;
- line-height: 2;
-  background-color: #BFD5C9;
-  height: fit-content;
-  padding-top: 20px;
-  width: 105%;
-  margin-left: 20px;
-  padding-bottom: 20px;}
-  
+    color: black;
+    line-height: 2;
+    background-color: #bfd5c9;
+    height: fit-content;
+    padding-top: 20px;
+    width: 105%;
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
 
-   
-   .first-part{
+  .first-part {
     margin-bottom: 20px;
-    margin-left:30px;
-  
-   
-
-   }
-   
- 
-  
-   
- 
-  
-
+    margin-left: 30px;
+  }
 
   .certificate-wrapper {
     background: #fbff7d;
@@ -913,8 +864,7 @@ text-align: center;
   .footer-border {
     background-color: #28282b;
     height: fit-content;
-    width: 110%
- 
+    width: 110%;
   }
 
   .single-hr {
@@ -932,7 +882,7 @@ text-align: center;
   .footer-contact {
     width: 300px;
     margin-left: 50px;
-    color: #dbd8e3;;
+    color: #dbd8e3;
     font-weight: bold;
     opacity: 0.7;
     font-size: 20px;
@@ -986,6 +936,4 @@ text-align: center;
     transform: translate(-50%, -50%);
     font-size: 20px;
   }
-
-
 }
