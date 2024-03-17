@@ -175,27 +175,27 @@ p {
 }
 
 .fa-brands.fa-linkedin-in {
-  font-size: 30px;
+  font-size: 28px;
   color: black;
-  margin: 10px 10px;
+  margin: 10px 20px;
   border-radius: 50%;
   background-color: white;
   padding: 10px 10px;
 }
 
 .fa-regular.fa-envelope {
-  font-size: 30px;
+  font-size: 28px;
   color: black;
-  margin: 10px 10px;
+  margin: 10px 20px;
   border-radius: 50%;
   background-color: white;
   padding: 10px 10px;
 }
 
 .fa-brands.fa-github {
-  font-size: 30px;
+  font-size: 28px;
   color: black;
-  margin: 10px 10px;
+  margin: 10px 20px;
   border-radius: 50%;
   background-color: white;
   padding: 10px 10px;
@@ -211,8 +211,8 @@ a {
   display: flex;
   justify-content: right;
   position: relative;
-  top: 30px;
-  margin-right: 70px;
+  top: 10px;
+  margin-right: 150px;
 }
 
 .special-links a:hover {
@@ -243,7 +243,7 @@ a {
   color: black;
   line-height: 2;
   background-color: #bfd5c9;
-  height: 500px;
+  height: 580px;
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
