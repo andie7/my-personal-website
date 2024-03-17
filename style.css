@@ -66,12 +66,9 @@ h1 {
 
 /*Image and Text HomePage*/
 
-.home-container {
+.home {
   font-size: 50px;
   font-family: "Poppins", sans-serif;
-}
-
-h4 {
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -569,27 +566,27 @@ a {
     font-size: 20px;
   }
 
-  .home-container {
-    font-size: 20px;
-    position: relative;
-    top: -370px;
+  .home {
+    font-size: 18px;
   }
-
   .home-wrapper {
-    height: 20px;
+    height: 1%;
   }
 
-  .image {
-    height: fit-content;
+  .about-wrapper {
+    margin-top: 20px;
   }
   .about-app {
     height: fit-content;
   }
 
+  .about-title {
+    margin-top: 300px;
+  }
   .about {
-    height: fit-content;
     margin-left: -22px;
     width: 106%;
+    height: fit-content;
   }
 
   .first-part {
@@ -637,7 +634,7 @@ a {
   }
 
   .special-links {
-    margin-left: 20px;
+    margin-left: 5px;
     font-size: 10px;
   }
 
@@ -657,5 +654,9 @@ a {
 
   .contact-me {
     font-size: 20px;
+  }
+
+  .brand-title {
+    width: 103%;
   }
 }
