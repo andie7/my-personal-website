@@ -285,19 +285,21 @@ line-height: 2;
   max-height: 635px;
 }
 
+
 .web-apps a {
   font-size: 23px;
   border: 1px solid;
   border-radius: 20px;
-  width: 500px;
+  width: 180px;
   display: flex;
   justify-content: space-around;
-  color: black;
+  color: white;
   line-height: 2;
   height: 50px;
-  background:#A7DBD7;
+  background:#b3b3b7;
   margin-top: 10px;
   border: none;
+  border-color: #333;
   text-decoration: none;
 }
 
@@ -620,8 +622,20 @@ h6 {
 .project-description {
   color: black;
   width: fit-content;
-  line-height: 2;
+  line-height:2;
   letter-spacing: normal;
+  font-size: 18px;
+ 
+}
+
+.build{
+  color: black;
+  width: fit-content;
+  line-height: 1.8;
+  letter-spacing: normal;
+  font-size: 18px;
+
+
 }
 
 .img-format{
