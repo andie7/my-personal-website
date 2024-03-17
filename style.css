@@ -106,7 +106,8 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  font-family: "Koulen", sans-serif;
 }
 
 h4 {
@@ -122,14 +123,15 @@ h3 {
   color: black;
   background-color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  font-family: "Koulen", sans-serif;
 }
 
 .portfolio-title {
   color: black;
   background-color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .home {
@@ -216,8 +218,8 @@ a {
 }
 
 .special-links a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .first-part {
@@ -620,6 +622,12 @@ h6 {
   width: 100px;
   height: 10px;
 }
+
+.portfolio-title {
+  font-family: "Koulen", sans-serif;
+  font-size: 80px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 22px;
