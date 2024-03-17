@@ -5,7 +5,14 @@
 .nav-link {
   color: black;
   font-weight: normal;
-}
+transition: transform ease 300ms;}
+   
+  .nav-link:hover{
+    transform: translate(0, -10px);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
 
 .navbar-brand {
   border: none;
@@ -61,7 +68,7 @@
 }
 
 .scroll-container{
-  background: white;
+  background: #333;
   overflow: auto;
     white-space: nowrap;
   padding:10px;
@@ -622,6 +629,8 @@ h6 {
   height: 10px;
 }
 @media (max-width: 576px) {
+
+ 
   h1 {
     font-size: 22px;
   }
