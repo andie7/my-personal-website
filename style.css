@@ -222,11 +222,12 @@ a {
 
 .first-part {
   border: 15px solid;
-  border-color: #bfd5c9;
+  border-color: hsl(147, 21%, 79%);
 }
 
 .about-wrapper {
   height: fit-content;
+  margin-left: 20px;
 }
 
 .about ul {
