@@ -86,6 +86,12 @@ transition: transform ease 300ms;}
 
 }
 
+.adapt-image{
+  width: 230px;
+
+
+}
+
 .scroll-image{
   width:400px;
 }
