@@ -131,7 +131,7 @@ h1 {
 }
 
 .about-title {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
@@ -793,7 +793,7 @@ a {
     text-align: center;
     color: black;
     position: relative;
-    top: -140px;
+    top: -110px;
     left: 20px;
     width: 90%;
     font-size: 13px;
