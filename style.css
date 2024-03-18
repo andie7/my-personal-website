@@ -166,6 +166,16 @@ h2 {
   height: 190px;
 }
 
+.fa-solid.fa-book-open,
+.fa-solid.fa-music,
+.fa-solid.fa-person-swimming,
+.fa-solid.fa-person-running,
+.fa-solid.fa-plane-departure {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
 /*Skills*/
 
 .skills-wrapper {
@@ -426,15 +436,6 @@ a {
 .element {
   font-weight: bold;
   font-size: 20px;
-}
-
-.fa-solid.fa-book-open,
-.fa-solid.fa-music,
-.fa-solid.fa-person-swimming,
-.fa-solid.fa-person-running {
-  font-size: 25px;
-  margin-right: 20px;
-  margin-left: 10px;
 }
 
 .fa-brands.fa-html5,
