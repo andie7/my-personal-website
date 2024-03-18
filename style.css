@@ -585,16 +585,17 @@ a {
   }
 
   .slogan {
-    font-size: 18px;
     position: relative;
-    top: -260px;
+    top: -230px;
     line-height: 2;
     color: white;
-    padding: 10px 10px;
-    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
   }
   .image {
-    width: 100%;
+    width: 90%;
     display: block;
     margin: 0 auto;
     border-radius: 5px;
@@ -605,6 +606,11 @@ a {
   .about-wrapper {
     margin-top: 20px;
     height: fit-content;
+
+    width: 80%;
+    position: relative;
+    left: 25px;
+    top: 0;
   }
 
   .about-title {
@@ -618,14 +624,14 @@ a {
     text-align: center;
   }
 
-  .first-part {
+  first-part {
     height: fit-content;
     margin-left: 30px;
     width: 85%;
   }
   .about {
-    margin-left: 17px;
-    width: 90%;
+    margin-left: -12px;
+    width: 107%;
     height: fit-content;
     font-size: 16px;
   }
@@ -662,6 +668,7 @@ a {
   .skills-title {
     font-display: flex;
     justify-content: center;
+    margin-top: 50px;
   }
 
   .sub-title {
@@ -672,6 +679,7 @@ a {
 
   .footer-border {
     height: 1100px;
+    width: 120%;
   }
 
   .brand-title {
