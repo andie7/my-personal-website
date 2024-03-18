@@ -659,6 +659,7 @@ a {
   .skills-wrapper {
     height: fit-content;
     margin-left: 5px;
+    margin-bottom: 30px;
   }
 
   .skills-wrapper li {
@@ -673,6 +674,12 @@ a {
 
   .sub-title {
     font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .brr {
+    display: block;
+    margin-top: 30px;
   }
 
   /* footer */
