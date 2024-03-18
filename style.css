@@ -246,7 +246,7 @@ li {
 
 .footer {
   text-align: center;
-  color: #514644;
+  color: black;
   position: relative;
   top: 25px;
   left: 20px;
@@ -767,7 +767,7 @@ a {
     color: white;
     border-radius: 10px;
     padding: 10px auto;
-    position: absolute;
+    position: relative;
     top: 550px;
     left: 100px;
     transform: translate(-50%, -50%);
@@ -776,11 +776,11 @@ a {
   }
 
   .form-wrapper {
-    position: absolute;
-    top: 30%;
-    left: 3%;
+    position: relative;
+    top: -60px;
+    left: -22px;
     transition: translate(-50%, -50%);
-    width: 95%;
+    width: 108%;
     padding: 20px 10px;
     margin-top: 20px;
   }
@@ -793,7 +793,7 @@ a {
     text-align: center;
     color: black;
     position: relative;
-    top: -140px;
+    top: -170px;
     left: 20px;
     width: 90%;
     font-size: 13px;
