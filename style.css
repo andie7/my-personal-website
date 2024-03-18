@@ -66,6 +66,9 @@ h1 {
 
 /*Image and Text HomePage*/
 
+.slogan {
+}
+
 .home {
   font-size: 50px;
   font-family: "Poppins", sans-serif;
@@ -568,40 +571,40 @@ a {
 
   /* Home */
 
+  .overlay {
+    display: none;
+  }
+
+  .home-wrapper {
+    display: none;
+  }
+
   h1 {
     font-size: 18px;
     margin-left: -24px;
   }
 
-  .home {
+  .slogan {
     font-size: 18px;
+    position: relative;
+    top: -180px;
+    width: 70%;
+    color: white;
+    padding: 10px 10px;
   }
-  .home-wrapper {
-    height: 1%;
-  }
-
-  .second-title {
-    white-space: normal;
-    font-size: 24px;
-    width: fit-content;
-    text-align: center;
-    position: absolute;
-    overflow: hidden;
-    margin-left: 50px;
-    top: 20%;
-    left: 40%;
+  .image {
+    width: 71%;
   }
 
   /* About */
   .about-wrapper {
-    margin-top: 10px;
-  }
-  .about-app {
+    margin-top: 20px;
     height: fit-content;
   }
 
   .about-title {
-    margin-top: 370px;
+    margin-top: -150px;
+    margin-left: -70px;
   }
 
   h2 {
@@ -616,7 +619,7 @@ a {
   }
 
   .first-part {
-    height: 500px;
+    height: fit-content;
     margin-left: 15px;
     width: 296px;
   }
@@ -652,6 +655,7 @@ a {
 
   .skills-title {
     margin-top: 30px;
+    margin-left: -80px;
   }
 
   .sub-title {
@@ -672,7 +676,7 @@ a {
     font-size: 2px;
     position: relative;
     top: 10px;
-    margin-right: 40px;
+    margin-left: 20px;
   }
 
   .footer-contact {
@@ -687,7 +691,7 @@ a {
 
   .single-hr {
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .contact-me {
