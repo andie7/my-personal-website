@@ -768,7 +768,7 @@ a {
     border-radius: 10px;
     padding: 10px auto;
     position: relative;
-    top: 550px;
+    top: -40px;
     left: 100px;
     transform: translate(-50%, -50%);
     font-size: 20px;
@@ -793,7 +793,7 @@ a {
     text-align: center;
     color: black;
     position: relative;
-    top: -170px;
+    top: -140px;
     left: 20px;
     width: 90%;
     font-size: 13px;
