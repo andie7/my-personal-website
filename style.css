@@ -523,7 +523,7 @@ a {
   border-radius: 10px;
   padding: 10px auto;
   position: absolute;
-  top: 660px;
+  top: 680px;
   left: 500px;
   transform: translate(-50%, -50%);
   font-size: 20px;
@@ -537,8 +537,8 @@ a {
 
 .form-wrapper {
   display: inline-block;
-  position: absolute;
-  top: 40%;
+  position: relative;
+  top: 6%;
   left: 30%;
   transition: translate(-50%, -50%);
   width: 40%;
