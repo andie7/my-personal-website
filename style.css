@@ -121,11 +121,13 @@ h1 {
 .first-part {
   border: 15px solid;
   border-color: hsl(147, 21%, 79%);
+  width: 30%;
+  margin-left: 30px;
 }
 
 .about-wrapper {
   height: fit-content;
-  margin-left: 20px;
+
   width: 100%;
 }
 
@@ -143,11 +145,12 @@ h1 {
   line-height: 2;
   background-color: #bfd5c9;
   height: 580px;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 20px 20px;
+
   text-align: left;
   font-size: 20px;
+  width: 100%;
+  margin-right: 30px;
 }
 
 h2 {
@@ -628,14 +631,14 @@ a {
     text-align: center;
   }
 
-  first-part {
+  .first-part {
     height: fit-content;
     margin-left: 30px;
-    width: 85%;
+    width: 100%;
   }
   .about {
-    margin-left: -12px;
-    width: 107%;
+    margin-left: 20px;
+    width: 106%;
     height: fit-content;
     font-size: 16px;
   }
