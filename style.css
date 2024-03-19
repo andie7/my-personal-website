@@ -170,6 +170,16 @@ h2 {
   border-radius: 80px;
 }
 
+.shecodes {
+  text-decoration: underline;
+  color: black;
+}
+
+.shecodes:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .fa-solid.fa-book-open,
 .fa-solid.fa-music,
 .fa-solid.fa-person-swimming,
