@@ -616,7 +616,7 @@ a {
 
     width: 80%;
     position: relative;
-    left: 25px;
+    left: 10px;
     top: 0;
   }
 
@@ -637,7 +637,7 @@ a {
     width: 100%;
   }
   .about {
-    margin-left: 20px;
+    margin-left: 18px;
     width: 106%;
     height: fit-content;
     font-size: 16px;
